@@ -119,8 +119,8 @@
 
     <!-- Prompts -->
     <string name="prompt_filesystem">Dateisystem:</string>
-    <string name="prompt_service_type">Servicetyp:</string>
-    <string name="prompt_client_type">Clienttyp:</string>
+    <string name="prompt_service_type">Service-Typ:</string>
+    <string name="prompt_client_type">Client-Typ:</string>
     <string name="prompt_app_connection_type_preference">Bitte Verbindungstyp auswählen: </string>
     <string name="prompt_select_backup">Sicherungsdatei des Dateisystems auswählen</string>
     <string name="prompt_install_file_manager">Bitte einen Dateimanager installieren</string>
