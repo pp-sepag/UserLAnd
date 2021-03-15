@@ -1,6 +1,11 @@
-<resources>                                                         <!-- Translators, pay attention to these notes! --> 
-    <string name="app_name">UserLAnd</string>
-    <string name="welcome">Willkommen bei UserLAnd!</string>
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE resources [
+    <!ENTITY appname "RELAG-System®">
+    ]>
+
+<resources>                                                         <!-- Translators, pay attention to these notes! -->
+    <string name="app_name">&appname;</string>
+    <string name="welcome">Willkommen bei &appname;!</string>
     <string name="permission_request_code">1000</string>
 
     <!-- Labels -->
@@ -114,8 +119,8 @@
 
     <!-- Prompts -->
     <string name="prompt_filesystem">Dateisystem:</string>
-    <string name="prompt_service_type">Service-Typ:</string>
-    <string name="prompt_client_type">Client-Typ:</string>
+    <string name="prompt_service_type">Servicetyp:</string>
+    <string name="prompt_client_type">Clienttyp:</string>
     <string name="prompt_app_connection_type_preference">Bitte Verbindungstyp auswählen: </string>
     <string name="prompt_select_backup">Sicherungsdatei des Dateisystems auswählen</string>
     <string name="prompt_install_file_manager">Bitte einen Dateimanager installieren</string>
@@ -123,8 +128,8 @@
     <!-- Notification strings -->
     <string name="services_notification_channel_name">Dienste</string>
     <string name="services_notification_channel_description">Dauerhafte Dienste</string>
-    <string name="service_notification_title">UserLAnd</string>
-    <string name="service_notification_description">UserLAnd führt einen Dienst im Hintergrund aus.</string>
+    <string name="service_notification_title">&appname;</string>
+    <string name="service_notification_description">&appname; führt einen Dienst im Hintergrund aus.</string>
 
     <!-- Progress bar messages -->
     <string name="progress_start_step">Dinge werden für Sie fertiggestellt&#8230;</string>
@@ -277,5 +282,30 @@
 
     <!-- Advanced options -->
     <string name="desc_import_backups_should_use_same_settings">Bitte gleich ausfüllen: \n\n\u2022 Nutzername \n\u2022 Passwort \n\u2022 VNC-Passwort \n\u2022 Distribution \n\n wie beim Backup, um einen reibungslosen Ablauf sicherzustellen</string>
-  
+    <string name="pref_clear_auto_start_title">Autostart Einstellungen löschen</string>
+    <string name="pref_clear_auto_start_summary">Keine App mehr automatisch starten, bis wieder aktiviert wird.</string>
+    <string name="pref_hide_sessions_filesystems_title">Untere Navigationsleiste ausblenden</string>
+    <string name="pref_hide_sessions_filesystems_summary">Vereinfacht die Anwendung, indem nur Elemente auf der Startseite angezeigt werden.</string>
+    <string name="pref_hide_distributions_title">Distributionen ausblenden</string>
+    <string name="pref_hide_distributions_summary">Keine Apps aus der Kategorie Distribution anzeigen.</string>
+    <string name="pref_custom_hostname_enabled_title">Benutzerdefinierten Hostnamen verwenden</string>
+    <string name="pref_custom_hostname_enabled_summary">Erlaubt die Verwendung eines benutzerdefinierten Hostnamen, der in /etc/hosts und /etc/hostname verwendet wird.</string>
+    <string name="pref_hostname_title">Benutzerdefinierten Hostnamen setzen</string>
+    <string name="pref_custom_dns_enabled_title">Benutzerdefinierte DNS Einstellungen verwenden</string>
+    <string name="pref_custom_dns_enabled_summary">Erlaubt die Angabe benutzerdefinierter Inhalten für die Datei /etc/resolv.conf.</string>
+    <string name="pref_dns_title">Inhalte für die Datei resolv.conf festlegen</string>
+    <string name="pref_custom_apps_enabled_title">Benutzerdefinierte URL für den App-Server verwenden</string>
+    <string name="pref_custom_apps_enabled_summary">Erlaubt die Verwendung einer benutzerdefinierten URL für den Server, welcher die App-Liste hostet.</string>
+    <string name="pref_apps_title">URL für den App-Server festlegen</string>
+    <string name="pref_custom_filesystem_enabled_title">Benutzerdefinierte URL für den Dateisystem-Server verwenden</string>
+    <string name="pref_custom_filesystem_enabled_summary">Erlaubt die Verwendung einer benutzerdefinierten URL für den Server, welcher die Dateisysteme zur Verfügung stellt.</string>
+    <string name="pref_filesystem_title">URL für den Dateisystem-Server festlegen</string>
+    <string name="pref_custom_scaling_enabled_title">Benuterdefinierten Skalierfaktor verwenden</string>
+    <string name="pref_custom_scaling_enabled_summary">Erlaubt das Einstellen eines benutzerdefinierten Skalierfaktors, um die Display Auflösung der VNC Sitzung zu verringern.</string>
+    <string name="pref_scaling_title">Skalierfaktor festlegen</string>
+    <string name="pref_hide_custom_toolbar_title">VNC Symbolleiste ausblenden</string>
+    <string name="pref_hide_custom_toolbar_summary">Die Symbolleiste innerhalb der VNC-Sitzung wird nicht mehr angezeigt.</string>
+    <string name="pref_default_vnc_input_mode_title">Standard Eingabe Modus für VNC</string>
+    <string name="pref_default_vnc_input_mode_summary">Legt den Standard Modus für die Eingabe in VNC fest. Kann über die Symbolleiste immerhalb der VNC-Sitzung übersteuert werden.</string>
+
 </resources>
